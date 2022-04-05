@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Start- The Morning Show</title>
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="content_max_width" id="page">
+    <header> <!--logo,metanavi, hauptnavi -->
+        <nav id="metaNavi">
+            <a href="impressum.html">Impressum</a>
+            <a href="impressum.html">Datenschutz</a>
+        </nav>
+        <div id="logo">
+            <a href="index.html"><img alt="logo" src="img/show.png"></a>
+        </div>
+
+
+        <nav id="mainNavi">
+            <div id="toggle_menu">
+                <span class="font35">Menu</span>
+                <img alt="open" class="openMenu" src="img/open_menu.png">
+                <img alt="close" class="closeMenu" src="img/close_menu.png">
+            </div>
+            <ul>
+                <li>
+                    <a href="jokes.html">Jokes</a>
+                </li>
+                <li>
+                    <a href="theories.html">Theories</a>
+                </li>
+                <li>
+                    <a href="cooking.html">Cooking</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main> <!--site content-->
+        <section>
+            <h1 class="font35">Welcome to The Morning Show!</h1>
+            <br>
+            <p>You will find many interesting things here</p>
+            <br>
+            <h2>Some of the topics we are covering here:</h2>
+            <br>
+            <div class="multiCols">
+                <div class="center">
+                    <h3>Jokes</h3>
+                    <br>
+                    <p>For example jokes by famous comics like: <u>Norm MacDonald</u> or <u>John Woodworm</u></p>
+                </div>
+                <div class="center">
+                    <h3>Theories</h3>
+                    <br>
+                    <p>Theories for example about:<br><strong>the reptilians, </strong> or<br><strong>the origin of
+                        life</strong></p>
+                    <br>
+                    <p>Theories can be found after clicking the button below</p>
+
+                    <div class="buttons">
+                        <a class="button1" href="theories.html">Theories</a>
+                    </div>
+                </div>
+                <div>
+                    <h3>Cooking</h3>
+                    <br>
+                    <p>We provide many <em><strong>delicious</strong></em> cooking recipes.<br> Using ingredients for
+                        example like:<br><br>
+                        These completely normal ingredients:<br><br>
+                    </p>
+                    <ul>
+                        <li>
+                            Tomatoes!
+                        </li>
+                        <li>
+                            Bread!
+                        </li>
+                        <li>
+                            Butter!
+                        </li>
+                        <li>
+                            Pepper!
+                        </li>
+                        <li>
+                            Salt!
+                        </li>
+                    </ul>
+                    <br>
+                    <p>Or sometimes even the crazy ones:</p><br>
+                    <ol>
+                        <li>
+                            Water!!
+                        </li>
+                        <li>
+                            Oil!!
+                        </li>
+                        <li>
+                            Bone broth!!
+                        </li>
+                    </ol>
+                </div>
+                <div>
+                    <h3>Here is also a exemplary cooking video: </h3>
+                    <div class="video">
+                        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                                src="https://www.youtube.com/embed/Fte3ey3L-48">
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--aside> //sidebar turned off for index
+            <h3>Your consultant:</h3>
+            <img class="roll" alt="Martin" src="img/consultant.png">
+            <p><b>Martin, The Consultant</b><br><br>
+                <a href="tel:+49657390234">Tel.: +49657390234</a><br><br>
+                <a href="mailto:martinconsultant@jokes.de">Contact me!</a>
+            </p>
+            <div id="availability_days"></div>
+        </aside-->
+    </main>
+
+    <footer>
+        <!-- contact form div  -->
+        <div>
+            <form action="#" id="contact_form">
+                <h2>Contact us!</h2>
+                <p id="error_messages"></p>
+                <div class="radio_buttons">
+                    <label>
+                        <input checked="checked" name="format" type="radio" value="newsletter">
+                        Sign up for newsletter
+                    </label>
+
+                    <label>
+                        <input name="format" type="radio" value="contact">
+                        Contact
+                    </label>
+                </div>
+
+                <label class="contact_field">
+                    Your name:<br>
+                    <input class="textInput" name="username" type="text">
+                </label>
+
+                <label>
+                    <br>Your email:<br>
+                    <input class="textInput" name="usermail" type="text">
+                </label>
+
+                <label class="contact_field">
+                    <br>Your phone number:<br>
+                    <input class="textInput" name="phone" type="text">
+                </label>
+
+                <label class="contact_field">
+                    <br>Your message:<br>
+                    <textarea class="textInput" name="user_message"></textarea>
+                </label>
+
+                <input id="submitButton" type="button" value="send">
+            </form>
+        </div>
+        <!-- Social media div -->
+        <div>
+            <p>Follow us on: </p>
+            <ul id="socialMedia">
+                <li>
+                    <a href="https://youtu.be/fOqTBGIvnEo" target="_blank">
+                        <img alt="youtube" src="img/yt_icon.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/Wied%C5%BAmin-ze-szko%C5%82y-bi%C5%82gorajskiej-102923734881304"
+                       target="_blank">
+                        <img alt="facebook" src="img/fb_icon.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/witcher_bilgoraj/?hl=de" target="_blank">
+                        <img alt="instagram" src="img/insta_icon.png">
+                    </a>
+                </li>
+            </ul>
+            <nav id="metanavi2">
+                <a href="impressum.html">Impressum</a>
+                <a href="impressum.html">Datenschutz</a>
+            </nav>
+        </div>
+    </footer>
+    <div id="scrollToTop">Take me to the top</div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
